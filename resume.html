@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nikesh Kumar - Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #EEE;
+      margin: 0;
+      padding: 20px;
+      background-color: #030201;
+    }
+
+    header {
+      border-bottom: 2px solid #FFF;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      background-color: #030201;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #FFF;
+      text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    }
+
+    p {
+      margin: 5px 0;
+      color: #EEE;
+      text-align: center;
+    }
+
+    a {
+      color: #EEE;
+      text-decoration: none;
+    }
+
+    section {
+      margin-bottom: 30px;
+      background-color: #222;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #EEE;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      color: #CCC;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    .skill-level {
+      display: inline-block;
+      padding: 3px 8px;
+      font-size: 12px;
+      background-color: #333;
+      color: #FFF;
+      border-radius: 3px;
+    }
+
+    .interactive-list {
+      cursor: pointer;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    /* Additional Styles */
+
+    /* Dynamic Font Colors */
+    .dynamic-color {
+      animation: changeColor 5s infinite;
+    }
+
+    @keyframes changeColor {
+      0% { color: #FF6F61; }
+      50% { color: #6B5B95; }
+      100% { color: #88B04B; }
+    }
+
+    /* Interactive Section */
+    .interactive-section {
+      background-color: #333;
+      transition: background-color 0.3s;
+    }
+
+    .interactive-section:hover {
+      background-color: #88B04B;
+      color: #000;
+    }
+  </style>
+  <script>
+    function toggleDetails(id) {
+      var details = document.getElementById(id);
+      details.classList.toggle("hidden");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1 class="dynamic-color">Nikesh Kumar</h1>
+    <p class="dynamic-color">New Delhi, India</p>
+    <p class="dynamic-color">Email: nikeshkumar1309@gmail.com</p>
+    <p class="dynamic-color">Phone: +91-7042991428</p>
+    <p class="dynamic-color">GitHub: <a href="https://github.com/NikeshKr">github.com/NikeshKr</a></p>
+    <p class="dynamic-color">LinkedIn: <a href="https://linkedin.com/in/nikeshkumar1309">linkedin.com/in/nikeshkumar1309</a></p>
+  </header>
+
+  <section class="interactive-section">
+    <h2 class="dynamic-color">Education</h2>
+    <ul>
+      <li>
+        <h3>B.Tech</h3>
+        <p>2020-2024</p>
+        <p>Netaji Subhas University Of Technology, Delhi</p>
+        <p>CGPA: 8.619</p>
+      </li>
+      <li>
+        <h3>CBSE (Class XII)</h3>
+        <p>2019</p>
+        <p>Vivekanand Public School, Delhi</p>
+        <p>Percentage: 87%</p>
+      </li>
+      <li>
+        <h3>CBSE (Class X)</h3>
+        <p>2017</p>
+        <p>Vivekanand Public School, Delhi</p>
+        <p>CGPA: 10</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="interactive-section">
+    <h2 class="dynamic-color">Projects</h2>
+    <ul>
+      <li>Collaborated with IOSD to work on NSUTx App as Android Developer</li>
+      <li>Online Exam Monitor</li>
+      <li>Helmet-and-Number-Plate-Detection</li>
+      <li>KeyLogger</li>
+      <li>Abstractive Text Recognition</li>
+      <li>Trex Runner and Ghost Escape games</li>
+      <li>Weather App</li>
+      <li>Ongoing Project: Working with IOSD to develop a new blogging app NESCII.</li>
+    </ul>
+  </section>
+
+  <section class="interactive-section">
+    <h2 class="dynamic-color">Positions of Responsibility</h2>
+    <ul>
+      <li>Class Representative</li>
+      <li>Member of Anti-Ragging Committee</li>
+      <li>Member of Internal Complaint Committee</li>
+      <li>Member of IOSD Junior Council</li>
+      <li>Member of NSUT football Team</li>
+      <li>Member of T&amp;P cell</li>
+    </ul>
+  </section>
+
+  <section class="interactive-section">
+    <h2 class="dynamic-color">Achievements</h2>
+    <ul>
+      <li>Won at Zonal Level Debate and Declamation Competitions (English and Hindi)</li>
+      <li>Qualified in both stages of All India Talent Search Examination (A.I.T.S) sponsored by International Children’s Equity Fund (INCEF) and won scholarship.</li>
+      <li>Secured AIR 877 among 89k+ participants in IICC - Innovate India Coding Championship Round -1 (launched by AICTE) held on 20th July, 2022.</li>
+      <li>Won in International Olympiad of Maths, International Olympiad of Science, International Social Studies Olympiad, International Informatics Olympiads.</li>
+      <li>Won in Poetry Writing Competition, Drawing Competitions.</li>
+      <li>Selected as Head Boy, Class Prefect, House Captain, Discipline Incharge in school.</li>
+    </ul>
+  </section>
+
+  <section class="interactive-section">
+    <h2 class="dynamic-color">Technical Skills</h2>
+    <ul>
+      <li>
+        <span class="skill-level">Advanced</span> Tech Stack: Android Studio, Firebase
+      </li>
+      <li>
+        <span class="skill-level">Intermediate</span> Programming Languages: Java, C, C++
+      </li>
+      <li>
+        <span class="skill-level">Intermediate</span> Scripting language: Javascript, Python
+      </li>
+      <li>
+        <span class="skill-level">Intermediate</span> Others: HTML, CSS, XML, Power BI, HADOOP, SQL
+      </li>
+      <li>
+        <span class="skill-level">Intermediate</span> Data Science, Machine Learning, Artificial Intelligence
+      </li>
+    </ul>
+  </section>
+  
+  <script>
+    var interactiveSections = document.querySelectorAll('.interactive-section');
+    interactiveSections.forEach(function (section) {
+      section.addEventListener('mouseenter', function () {
+        this.classList.add("dynamic-color");
+      });
+      section.addEventListener('mouseleave', function () {
+        this.classList.remove("dynamic-color");
+      });
+    });
+
+    var interactiveListItems = document.querySelectorAll('.interactive-list');
+    interactiveListItems.forEach(function (item) {
+      item.addEventListener('click', function () {
+        var detailsId = this.dataset.details;
+        toggleDetails(detailsId);
+      });
+    });
+  </script>
+</body>
+</html>
